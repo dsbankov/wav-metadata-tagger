@@ -3,6 +3,9 @@ Command line tool for adding BWF metadata to WAV files.
 
 Example usage: .\wav-metadata-tagger.exe --path "..\Adrift Break.wav" --metadata PROJECT=DrumBreaks02 --metadata NOTE="Some notes" --metadata BWF_DESCRIPTION="all the old stuff" --metadata MusicalTempo=174 --metadata MediaAlbum="album name"
 
+## Build
+Open project with Visual Studio 2019 and build.
+
 ## Supported metadata
 #### Basic iXML metadata
 - NOTE
@@ -17,7 +20,7 @@ Example usage: .\wav-metadata-tagger.exe --path "..\Adrift Break.wav" --metadata
 - BWF_ORIGINATION_TIME
 - BWF_ORIGINATOR_REFERENCE
 - BWF_ORIGINATOR
-#### BaseHead / Steinberg's Mediabay supported metadata
+#### BaseHead / Steinberg's Mediabay metadata
 - MusicalInstrument
 - MediaRecordingMethod
 - MediaArtist
